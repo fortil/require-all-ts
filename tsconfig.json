@@ -1,0 +1,33 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es5",
+    "allowJs": false,
+    "skipLibCheck": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "build",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "noLib": false,
+    "baseUrl": "./"
+  },
+  "include": [
+    "index.ts"
+  ],
+  "exclude": [
+    "__tests__",
+    "node_modules",
+    "**/__tests__/*",
+    "**/*.test.js",
+    "**/node_modules/*"
+  ]
+}

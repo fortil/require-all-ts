@@ -1,0 +1,42 @@
+{
+  "author": {
+    "name": "William Penagos",
+    "email": "info@williampenagos.com"
+  },
+  "bugs": {
+    "url": "https://github.com/fortil/require-all-ts/issues"
+  },
+  "deprecated": false,
+  "description": "Require all files from folder",
+  "devDependencies": {
+    "@types/node": "14.0.4",
+    "typescript": "3.7.5"
+  },
+  "engines": {
+    "node": ">=8.10"
+  },
+  "homepage": "https://github.com/fortil/require-all-ts#readme",
+  "keywords": [
+    "require",
+    "all",
+    "folder",
+    "requiring"
+  ],
+  "license": "MIT",
+  "main": "./build/index.js",
+  "name": "require-all-ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fortil/require-all-ts.git"
+  },
+  "scripts": {
+    "compile": "tsc --project tsconfig.json",
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "types": "./types/index.d.ts",
+  "version": "0.0.1",
+  "dependencies": {
+    "tsc": "^1.20150623.0"
+  }
+}
